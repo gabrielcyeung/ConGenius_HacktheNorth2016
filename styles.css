@@ -171,3 +171,18 @@ button:hover {
 	background-color: #FFD590;
 	border-bottom: 3px solid #FFC25C;
 }
+
+.question{
+	font-size: 35px;
+}
+
+.answer{
+	width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin:0;
+    vertical-align: middle;
+    right: 3px;
+    *overflow: hidden;
+
+}
