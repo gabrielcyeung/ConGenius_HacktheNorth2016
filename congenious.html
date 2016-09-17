@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="cleverbot.io.min.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+	<title>
+		Congenious Messenger
+	</title>
+
+	<style>
+	
+	header, footer{
+		padding: 1em;
+		color:white;
+		background: #74ADF1;
+		clear:left;
+		text-align: center;
+	}
+
+	form, button{
+		text-align: center;
+		}
+
+	</style>	
+</head>
+
+<body>
+
+<header>
+	<h1>Congenius Messenger</h1>
+</header>
+
+	<form>
+		User email:<br>
+		<input type="text" email="email"><br>
+		User password: <br>
+		<input type="password" email="psw">			
+	</form>
+
+	<!--TODO Center this button & link to next page -->
+	<button type="button" onclick="alert('Welcome to Congenious')">Submit</button>
+
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<footer>Hack the North 2016</footer>
+	
+	
+</body>
+</html>
