@@ -28,6 +28,9 @@ input {
     top: -1px;
     *overflow: hidden;
 }
+form{
+	font-size: 20px;
+}
 table {
 	margin-top: 20px;
 }
@@ -36,6 +39,10 @@ table {
 }
 .bigger-font {
 	font-size: 2.2em;
+}
+.bigger-center-font {
+	font-size: 2.2em;
+	text-align:center;
 }
 .regular-font {
 	font-size: 5em;
@@ -79,6 +86,20 @@ table {
 	padding-bottom: 10px;
 	font-size: 2em;
 	background-color: #02845F;
+}
+.button-2c {
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 2em;
+	background-color: #02845F;
+	text-align: center;
+	margin:0 auto;
+
 }
 .button-3 {
 	border-color: white;
@@ -173,7 +194,8 @@ button:hover {
 }
 
 .question{
-	font-size: 35px;
+	font-size: 25px;
+	text-align: left;
 }
 
 .answer{
@@ -182,7 +204,11 @@ button:hover {
     padding: 10px;
     margin:0;
     vertical-align: middle;
-    right: 3px;
+    left: 0px;
     *overflow: hidden;
+}
 
+.sectionend{
+	font-size: 30px;
+	text-align:center;
 }
