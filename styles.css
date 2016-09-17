@@ -98,7 +98,7 @@ table {
 	font-size: 2em;
 	background-color: #02845F;
 	text-align: center;
-	margin:0 auto;
+
 
 }
 .button-3 {
@@ -201,6 +201,24 @@ button:hover {
 .answer{
 	width: 20px;
     height: 20px;
+    padding: 10px;
+    margin:0;
+    vertical-align: middle;
+    left: 0px;
+    *overflow: hidden;
+}
+.opanswer{
+	width: 20px;
+    height: 15px;
+    padding: 10px;
+    margin:0;
+    vertical-align: middle;
+    left: 0px;
+    *overflow: hidden;
+}
+.longanswer{
+	width: 1000px;
+    height: 100px;
     padding: 10px;
     margin:0;
     vertical-align: middle;
