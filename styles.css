@@ -98,9 +98,20 @@ table {
 	font-size: 2em;
 	background-color: #02845F;
 	text-align: center;
-
-
 }
+.button-2s {
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+	background-color: #02845F;
+	text-align: center;
+}
+
 .button-3 {
 	border-color: white;
 	border-width: 1px;
@@ -225,8 +236,10 @@ button:hover {
     left: 0px;
     *overflow: hidden;
 }
-
 .sectionend{
 	font-size: 30px;
 	text-align:center;
+}
+.signout{
+	text-align:right;
 }
